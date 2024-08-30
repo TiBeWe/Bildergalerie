@@ -55,6 +55,8 @@ Diese Webseite zeigt eine umfassende Ferien-Galerie von Spanien. Sie bietet vers
 - **Interaktive Elemente**: Platz für die interaktive Karte von Spanien oder andere Animationen.
 - **Footer**: Kontaktinformationen, Social Media, Impressum.
 
+![alt text](https://github.com/TiBeWe/Bildergalerie/blob/main/Pictures/Wireframe.jpeg)
+
 ---
 
 © 2024 - Deine Ferien-Galerie Spanien
