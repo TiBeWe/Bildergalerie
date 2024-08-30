@@ -61,7 +61,7 @@ Diese Webseite zeigt eine umfassende Ferien-Galerie von Spanien. Sie bietet vers
 
 © 2024 - Deine Ferien-Galerie Spanien
 
-###############################################################
+
 
 # Getting Started with Create React App
 
