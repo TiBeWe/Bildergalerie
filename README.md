@@ -62,7 +62,6 @@ Diese Webseite zeigt eine umfassende Ferien-Galerie von Spanien. Sie bietet vers
 © 2024 - Deine Ferien-Galerie Spanien
 
 
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
