@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
     return (
@@ -7,18 +8,17 @@ const LandingPage = () => {
                 Spanien
             </h1>
             <div className="flex space-x-4 mt-[-4rem]">
-                {/* Alle Buttons doppelt so groß */}
-                <button className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
-                    Bilder
-                </button>
+                <Link to="/gallery" className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
+                    Galerie
+                </Link>
 
-                <button className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
+                <Link to="/videos" className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
                     Videos
-                </button>
+                </Link>
 
-                <button className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
+                <Link to="/animations" className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
                     Animationen
-                </button>
+                </Link>
             </div>
         </div>
     );

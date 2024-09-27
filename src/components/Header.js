@@ -19,12 +19,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/modelle" className="hover:text-gray-400 transition duration-300">
-                Modelle
-              </Link>
-            </li>
-            <li>
-              <Link to="/galerie" className="hover:text-gray-400 transition duration-300">
+              <Link to="/gallery" className="hover:text-gray-400 transition duration-300">
                 Galerie
               </Link>
             </li>
@@ -34,8 +29,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/kontakt" className="hover:text-gray-400 transition duration-300">
-                Kontakt
+              <Link to="/animations" className="hover:text-gray-400 transition duration-300">
+                Animationen
               </Link>
             </li>
           </ul>
