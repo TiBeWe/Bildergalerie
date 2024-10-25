@@ -1,8 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Link } from 'react-router-dom';
-=======
->>>>>>> 6fb85b6947f3cbcd51a6b25f926991fd78b38d48
 
 const LandingPage = () => {
     return (
@@ -11,7 +8,6 @@ const LandingPage = () => {
                 Spanien
             </h1>
             <div className="flex space-x-4 mt-[-4rem]">
-<<<<<<< HEAD
                 <Link to="/gallery" className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
                     Galerie
                 </Link>
@@ -23,20 +19,6 @@ const LandingPage = () => {
                 <Link to="/animations" className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
                     Animationen
                 </Link>
-=======
-                {/* Alle Buttons doppelt so groß */}
-                <button className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
-                    Bilder
-                </button>
-
-                <button className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
-                    Videos
-                </button>
-
-                <button className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]">
-                    Animationen
-                </button>
->>>>>>> 6fb85b6947f3cbcd51a6b25f926991fd78b38d48
             </div>
         </div>
     );
