@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route exact path="/" element={<LandingPage />} />
         <Route path="/gallery" element={<ImageGallery />} />
         <Route path="/videos" element={<VideoGallery />} />
         <Route path="/animations" element={<Animations />} />
