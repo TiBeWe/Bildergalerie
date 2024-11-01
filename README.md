@@ -1,26 +1,30 @@
 # Ferien-Galerie Spanien
 
 ## Inhaltsverzeichnis
+
 1. [Einleitung](#einleitung)
 2. [Startseite](#startseite)
 3. [Bildgalerie](#bildgalerie)
 4. [Videoseite](#videoseite)
 5. [Animationen und Interaktive Elemente](#animationen-und-interaktive-elemente)
-6. [Zusätzliche Seiten/Abschnitte](#zusätzliche-seitenabschnitte)
+6. [Zusätzliche Seiten/Abschnitte](#zus%C3%A4tzliche-seitenabschnitte)
 7. [Footer](#footer)
 8. [Wireframe-Ideen](#wireframe-ideen)
 
 ---
 
 ## Einleitung
+
 Diese Webseite zeigt eine umfassende Ferien-Galerie von Spanien. Sie bietet verschiedene Multimedia-Elemente wie Bildergalerien, Videos und Animationen, die die Schönheit und Vielfalt Spaniens darstellen. Die Seite ist in mehrere Bereiche unterteilt, um den Benutzern eine intuitive und ansprechende Benutzererfahrung zu bieten.
 
 ## Startseite
+
 - **Hintergrundbild oder Video**: Ein großformatiges Bild oder Video von einer bekannten spanischen Landschaft oder Stadt.
 - **Navigation**: Menü mit Links zu den verschiedenen Unterseiten (z.B. Galerien, Videos, Animationen, Kontakt).
 
 ## Bildgalerie
-- **Themenorientierte Galerien**:
+
+- **Themenorientierte Galerien**: 
   - **Städte**: Fotos von Barcelona, Madrid, Sevilla usw.
   - **Kultur**: Flamenco, Stierkampf, Fiestas.
   - **Natur**: Strände, Gebirge, Naturparks.
@@ -28,26 +32,31 @@ Diese Webseite zeigt eine umfassende Ferien-Galerie von Spanien. Sie bietet vers
 - **Interaktiver Bild-Slider**: Ein automatisch durchlaufender Bild-Slider mit manueller Navigation.
 
 ## Videoseite
+
 - **Video-Touren**: Videos von verschiedenen Sehenswürdigkeiten, Festen oder Stränden.
 - **Erlebnisberichte**: Clips von Reisenden, die ihre Erfahrungen in Spanien teilen.
 - **Slow Motion Sequenzen**: Szenen wie Flamenco-Tanz, Wellen am Strand, etc.
 - **360°-Videos**: Virtuelle Touren durch bestimmte Orte in Spanien.
 
 ## Animationen und Interaktive Elemente
+
 - **Interaktive Karte von Spanien**: Eine Karte, die beim Anklicken einer Region Informationen und Bilder anzeigt.
 - **CSS3 Animationen**: Animierte Elemente wie Fähnchen oder Banner mit spanischen Symbolen.
 - **HTML5 Canvas Animation**: Animierte Diashows oder Grafiken, die die verschiedenen Regionen Spaniens darstellen.
 
 ## Zusätzliche Seiten/Abschnitte
+
 - **Geschichte und Kultur**: Informationen und Fakten über die besuchten Orte.
 - **Reise-Tipps**: Empfehlungen für Reisende zu den besten Zeiten, lokalen Bräuchen und Spezialitäten.
 - **Kontakt/Impressum**: Kontaktinformationen und rechtliche Hinweise.
 
 ## Footer
+
 - **Social Media Integration**: Links zu sozialen Netzwerken für mehr Inhalte oder zum Teilen der Seite.
 - **Copyright-Hinweise**: Informationen über die Nutzung der Bilder und Videos sowie Quellenangaben.
 
 ## Wireframe-Ideen
+
 - **Header**: Logo, Navigation, und eine auffällige Überschrift (z.B. "Entdecke Spanien: Deine Traumreise beginnt hier").
 - **Hero Section**: Großes Hintergrundbild oder Video, kurze Einführung in die Seite.
 - **Galerien**: Gitterlayout für Bilder mit der Möglichkeit, auf eine Detailansicht zu klicken.
@@ -61,7 +70,6 @@ Diese Webseite zeigt eine umfassende Ferien-Galerie von Spanien. Sie bietet vers
 
 © 2024 - Deine Ferien-Galerie Spanien
 
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,7 +81,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open <http://localhost:3000> to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -95,7 +103,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you** `eject`, you can't go back!
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
@@ -111,25 +119,26 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This section has moved here: <https://facebook.github.io/create-react-app/docs/code-splitting>
 
 ### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This section has moved here: <https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size>
 
 ### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This section has moved here: <https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app>
 
 ### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This section has moved here: <https://facebook.github.io/create-react-app/docs/advanced-configuration>
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: <https://facebook.github.io/create-react-app/docs/deployment>
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-#
+This section has moved here: <https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify>
+
+# 
