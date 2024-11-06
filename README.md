@@ -24,11 +24,50 @@ Diese Webseite zeigt eine umfassende Ferien-Galerie von Spanien. Sie bietet vers
 
 ## Bildgalerie
 
-- **Themenorientierte Galerien**: 
-  - **Städte**: Hochwertige Bilder von Orten wie Barcelona, Madrid und Sevilla. Die Bilder könnten Stadtansichten, berühmte Bauwerke oder Straßenszenen darstellen.
-  - **Kultur**: Fotos, die das reiche kulturelle Erbe Spaniens zeigen, z.B. Flamenco-Tänzer, traditionelle Trachten, Stierkämpfe und bekannte Festlichkeiten.
-  - **Natur**: Beeindruckende Landschaftsbilder, die Strände, Gebirge wie die Pyrenäen und bekannte Naturparks zeigen, um die Vielfalt der spanischen Natur darzustellen.
-  - **Essen**: Fotos der berühmtesten spanischen Gerichte wie Tapas, Paella, Churros und weitere kulinarische Spezialitäten, um das authentische Spanien-Erlebnis zu vermitteln.
+In der Bildgalerie werden verschiedene Aspekte von Spanien in einem thematischen Ablauf dargestellt. Die Galerie ist in Abschnitte unterteilt, die spezifische Themen zeigen, um den Benutzern ein Gefühl für die Vielfalt und Schönheit Spaniens zu geben.
+
+### Ablauf der Bilder
+
+1. **Erste 5 Bilder: Städte**
+   - Diese Bilder zeigen die atemberaubende Architektur und das lebhafte Stadtleben in Spanien:
+     - **Bild 1**: Sagrada Familia, Barcelona – ein ikonisches Wahrzeichen der Stadt und Meisterwerk von Antoni Gaudí.
+     - **Bild 2**: Plaza Mayor, Madrid – eine der berühmtesten Plätze mit beeindruckender Architektur und Geschichte.
+     - **Bild 3**: Giralda-Turm, Sevilla – ein Symbol der Stadt und ein Überbleibsel aus maurischer Zeit.
+     - **Bild 4**: Hafen von Valencia – moderner und historischer Kontrast am Mittelmeer.
+     - **Bild 5**: Alhambra, Granada – prachtvolle maurische Festung mit Blick auf die Sierra Nevada.
+
+2. **Nächste 5 Bilder: Kultur und Tradition**
+   - Hier werden die farbenfrohen Traditionen und das kulturelle Erbe Spaniens eingefangen:
+     - **Bild 6**: Flamenco-Tänzerin in traditioneller Kleidung – das feurige Temperament des Flamencos in Aktion.
+     - **Bild 7**: Stierkampf-Arena – symbolträchtiges Bild einer leeren Arena mit historischer Bedeutung.
+     - **Bild 8**: Fiestas (Volksfeste) – Aufnahme von Festbesuchern in typischen Trachten während eines Straßenfestes.
+     - **Bild 9**: Fallas-Festival in Valencia – prächtige Skulpturen, die am Ende verbrannt werden.
+     - **Bild 10**: Semana Santa Prozessionen – Religiöse Umzüge und Traditionen während der Osterwoche.
+
+3. **Nächste 5 Bilder: Natur und Landschaften**
+   - Die Schönheit der spanischen Natur und die Vielfalt der Landschaften kommen hier zur Geltung:
+     - **Bild 11**: Strände von Costa Brava – kristallklares Wasser und felsige Küstenabschnitte.
+     - **Bild 12**: Picos de Europa – majestätisches Bergpanorama im Norden Spaniens.
+     - **Bild 13**: Doñana-Nationalpark – eine einzigartige Landschaft mit üppiger Flora und Fauna.
+     - **Bild 14**: Vulkanische Landschaft auf Lanzarote – Mondlandschaften und karge Schönheit.
+     - **Bild 15**: Guadalquivir-Fluss in Andalusien – entspannte Naturansicht eines der wichtigsten Flüsse Spaniens.
+
+4. **Nächste 5 Bilder: Spanische Küche**
+   - Die kulinarische Vielfalt Spaniens, die Einblicke in die typische Küche und die regionalen Spezialitäten gibt:
+     - **Bild 16**: Paella – die klassische valencianische Paella mit Meeresfrüchten.
+     - **Bild 17**: Tapas-Auswahl – Teller mit verschiedenen Tapas in einer typisch spanischen Bar.
+     - **Bild 18**: Churros mit heißer Schokolade – beliebte süße Delikatesse zum Frühstück oder Dessert.
+     - **Bild 19**: Gazpacho – traditionelles kaltes Gemüsesüppchen aus Andalusien.
+     - **Bild 20**: Turrón – spanische Nougat-Spezialität, besonders beliebt zur Weihnachtszeit.
+
+5. **Weitere Bilder: Menschen und das spanische Leben**
+   - Eine Serie von Bildern, die das tägliche Leben und die Gastfreundschaft in Spanien darstellen:
+     - **Bild 21**: Menschen in einer Tapas-Bar – fröhliche Gespräche und gesellige Atmosphäre.
+     - **Bild 22**: Straßencafé-Szene in Madrid – entspannter spanischer Lebensstil an einem Nachmittag.
+     - **Bild 23**: Marktstand in Barcelona – frisches Obst und Gemüse auf einem traditionellen Markt.
+     - **Bild 24**: Sonnenuntergang am Strand – eine friedliche Szene zum Ende eines spanischen Tages.
+     - **Bild 25**: Freundesgruppe in einer spanischen Bodega – Freude und Gemeinschaft beim gemeinsamen Essen und Trinken.
+
 - **Interaktiver Bild-Slider**: Ein automatisch durchlaufender Bild-Slider mit manueller Navigation. Der Slider ermöglicht es Nutzern, Bilder in einer Slideshow zu betrachten, die die Highlights der verschiedenen Themen zeigt. Jeder Bildwechsel erfolgt mit sanften Übergangsanimationen, um die Benutzererfahrung zu verbessern.
 - **Lightbox-Modus**: Ein Klick auf ein Bild öffnet eine detaillierte Ansicht (Lightbox), in der die Bilder in höherer Auflösung und mit Beschreibungen betrachtet werden können.
 
