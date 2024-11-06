@@ -149,9 +149,124 @@ Dieses Storyboard beschreibt Ideen für die Struktur und Planung meienr Videos, 
 
 ## Animationen und Interaktive Elemente
 
-- **Interaktive Karte von Spanien**: Eine Karte, die beim Anklicken einer Region Informationen und Bilder anzeigt. So können die Benutzer auf bestimmte Gebiete oder Städte klicken, um Highlights und spezielle Informationen anzuzeigen.
-- **CSS3 Animationen**: Dynamische Effekte wie Flaggen, die sanft im Wind wehen, oder Banner mit spanischen Symbolen (z.B. Gitarren, Tänzerinnen oder Stierfiguren).
-- **HTML5 Canvas Animation**: Animierte Diashows oder Grafiken, die verschiedene Regionen Spaniens und deren besondere Merkmale darstellen. Auch animierte Reiserouten oder Wegpunkte könnten so dargestellt werden.
+### 1. Interaktive Karte von Spanien
+
+### Ziel:
+Ich möchte eine interaktive Karte von Spanien erstellen, die es den Nutzern ermöglicht, auf verschiedene Regionen zu klicken und mehr über die jeweiligen Sehenswürdigkeiten zu erfahren. Die Karte sollte sowohl informativ als auch visuell ansprechend sein.
+
+### Beschreibung:
+- **Karte**: Eine detaillierte SVG-Grafik von Spanien, die alle wichtigen Regionen und Städte zeigt.
+- **Interaktivität**: Wenn der Nutzer auf eine Region klickt, öffnet sich ein Pop-up mit zusätzlichen Informationen und Bildern.
+  
+### Elemente:
+1. **Karte von Spanien** – Diese Karte wird als SVG dargestellt, die alle Regionen enthält.
+2. **Pop-up-Fenster** – Beim Klicken auf eine Region erscheint ein Pop-up, das ein Bild und eine kurze Beschreibung dieser Region zeigt.
+  
+### Animationen:
+- **Kartenzoom**: Wenn der Nutzer auf eine Region klickt, zoomt die Karte sanft in die ausgewählte Region. Dies gibt dem Nutzer das Gefühl, die Region näher zu erkunden.
+- **Pop-up-Effekte**: Die Pop-up-Box erscheint mit einer sanften "fade-in"-Animation, sodass der Übergang angenehm und nicht abrupt wirkt.
+- **Interaktive Übergänge**: Beim Wechsel zwischen den Regionen wird ein sanfter Übergang (z.B. "slide-in") verwendet, um die Benutzererfahrung zu verbessern.
+
+### Planung:
+- **Kartenbereiche definieren**: Ich werde zuerst festlegen, welche Regionen und Städte auf der Karte hervorgehoben werden (z.B. Andalusien, Katalonien, Madrid).
+- **Inhalt für Pop-ups**: Ich plane, zu jeder Region wichtige Sehenswürdigkeiten und Kulturhighlights zu präsentieren (z.B. Alhambra in Granada, Sagrada Família in Barcelona).
+- **Interaktive Elemente**: Ich werde sicherstellen, dass der Nutzer leicht zwischen den Regionen wechseln kann, ohne dass die Seite neu geladen wird.
+
+---
+
+## 2. CSS3-Animationen für Dynamik
+
+### Ziel:
+Die Webseite soll dynamisch und lebendig wirken. Ich möchte CSS3-Animationen verwenden, um die kulturellen Elemente Spaniens zu präsentieren, wie z.B. die wehende Flagge, Gitarren, Tänzerinnen und Stierfiguren.
+
+### Beschreibung:
+CSS3-Animationen werden verwendet, um verschiedene spanische Symbole und Elemente zu animieren, damit die Seite lebendiger wird.
+
+### Animationen:
+1. **Wehende Flagge**:
+   - **Effekt**: Eine animierte spanische Flagge, die im Wind weht.
+   - **Technik**: Keyframe-Animationen in CSS. Die Flagge bewegt sich sanft von links nach rechts und auf und ab.
+   - **Zeit**: Diese Animation wiederholt sich alle 5 Sekunden, um kontinuierlich Bewegung zu zeigen.
+
+2. **Hover-Effekte**:
+   - **Effekt**: Buttons und Links ändern ihre Farbe und vergrößern sich leicht, wenn der Nutzer mit der Maus darüber fährt.
+   - **Technik**: Mit der `:hover` Pseudo-Klasse in CSS.
+   - **Animation**: Eine sanfte Farbänderung und Skalierung.
+   - **Zeit**: 0,3 Sekunden für den Übergang, der linear abläuft.
+
+3. **Spanische Symbole (Gitarren, Tänzerinnen, Stiere)**:
+   - **Effekt**: Verschiedene spanische Symbole wie Gitarren, Tänzerinnen und Stierfiguren erscheinen auf der Seite und bewegen sich leicht.
+   - **Technik**: Verwendung von CSS3 `@keyframes` für animierte Bewegungen.
+   - **Animation**: Diese Symbole erscheinen in zufälligen Abständen und bewegen sich mit leichten Dreh- oder Wackelbewegungen, die die Lebendigkeit Spaniens widerspiegeln.
+   - **Zeit**: Jede Animation dauert etwa 3 Sekunden und wird wiederholt.
+
+### Planung:
+- Ich werde die CSS3-Animationen für Elemente verwenden, die mit der spanischen Kultur zu tun haben (z.B. Gitarren, Tänzerinnen, Flagge).
+- Ich werde sicherstellen, dass diese Animationen auf verschiedenen Geräten und Bildschirmgrößen gut aussehen.
+  
+---
+
+## 3. HTML5 Canvas Animation: Diashow und Reiserouten
+
+### Ziel:
+Die Canvas-Animationen sollen genutzt werden, um eine Diashow von verschiedenen Regionen Spaniens zu erstellen und eine animierte Reiseroute zu zeigen, die durch das Land führt.
+
+### Beschreibung:
+1. **Animierte Diashow**:
+   - **Effekt**: Eine Diashow, die Bilder aus verschiedenen Regionen Spaniens anzeigt (z.B. die Alhambra, die Strände der Costa Brava, das Festival in Pamplona).
+   - **Technik**: HTML5 Canvas kombiniert mit JavaScript für die Animation.
+   - **Animation**: Die Bilder wechseln sanft von links nach rechts.
+   - **Zeit**: Alle 4 Sekunden wechselt das Bild.
+
+2. **Animierte Reiseroute**:
+   - **Effekt**: Eine animierte Linie, die den Verlauf einer Reiseroute von Madrid nach Barcelona oder durch andere bedeutende Städte zeigt.
+   - **Technik**: Canvas mit JavaScript, um eine Linie zu zeichnen, die den Verlauf der Route anzeigt.
+   - **Animation**: Die Linie wird in Echtzeit gezeichnet, um die Reise darzustellen.
+   - **Zeit**: Diese Animation wird innerhalb von 5 Sekunden abgeschlossen.
+
+### Planung:
+- Die Diashow wird Bilder der wichtigsten Sehenswürdigkeiten Spaniens zeigen.
+- Die Reiseroute wird visuell die Strecke zwischen den bedeutenden Städten darstellen, wobei die Strecke je nach Reiseziel variiert.
+- Ich werde sicherstellen, dass die Animationen reibungslos ablaufen und auf allen Geräten gut sichtbar sind.
+
+---
+
+## 4. Integration der Animationen
+
+### Ziel:
+Ich möchte sicherstellen, dass alle Animationen gut in die Webseite integriert werden und auf allen Geräten und Browsern reibungslos laufen.
+
+### Beschreibung:
+- Ich werde die Animationen so integrieren, dass sie die Benutzererfahrung nicht stören, sondern diese vielmehr verbessern. Dabei achte ich auf eine gute Ladegeschwindigkeit und eine hohe Kompatibilität.
+
+### Schritte:
+1. **Responsive Design**: Alle Animationen sollen sich automatisch an verschiedene Bildschirmgrößen anpassen. Das bedeutet, dass sie auf Smartphones, Tablets und Desktops gleichermaßen gut funktionieren.
+2. **Cross-Browser-Kompatibilität**: Ich teste die Webseite auf verschiedenen Browsern, um sicherzustellen, dass die Animationen überall korrekt angezeigt werden.
+3. **Ladegeschwindigkeit optimieren**: Die Animationen dürfen die Ladezeiten der Webseite nicht negativ beeinflussen. Ich werde Lazy Loading und andere Techniken verwenden, um dies zu erreichen.
+
+### Integration:
+- **CSS3**: Alle kleinen Animationen (wie Flagge, Hover-Effekte, Symbole) werden direkt im HTML eingebunden.
+- **HTML5 Canvas**: Die Diashow und Reiserouten werden im `<canvas>`-Tag eingebunden, das mit JavaScript gesteuert wird.
+
+---
+
+## 5. Testen und Feedback
+
+### Ziel:
+Ich möchte sicherstellen, dass die Animationen und interaktiven Elemente auf der Webseite einwandfrei funktionieren und den Nutzern eine positive Erfahrung bieten.
+
+### Schritte:
+1. **Interaktivität testen**: Ich überprüfe, ob die Karte richtig funktioniert und ob Pop-ups korrekt angezeigt werden.
+2. **Browser- und Gerätetests**: Ich teste die Webseite auf verschiedenen Geräten und Browsern, um sicherzustellen, dass alles reibungslos läuft.
+3. **Performance optimieren**: Ich achte darauf, dass die Webseite schnell lädt, und optimiere gegebenenfalls die Performance.
+4. **Feedback von Nutzern einholen**: Ich werde Feedback von Nutzern sammeln, um die Animationen weiter zu verbessern.
+
+---
+
+## Fazit
+
+Mit dieser Planung und den Animationen möchte ich eine interaktive und visuell ansprechende Webseite erstellen, die den Nutzern hilft, mehr über Spanien zu erfahren. Die Kombination aus einer interaktiven Karte, CSS3-Animationen und HTML5 Canvas wird die Benutzererfahrung bereichern und das Thema Spanien auf kreative Weise darstellen.
+
 
 ## Zusätzliche Seiten/Abschnitte
 
