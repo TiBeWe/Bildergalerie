@@ -71,7 +71,9 @@ In der Bildgalerie werden verschiedene Aspekte von Spanien in einem thematischen
 - **Interaktiver Bild-Slider**: Ein automatisch durchlaufender Bild-Slider mit manueller Navigation. Der Slider ermöglicht es Nutzern, Bilder in einer Slideshow zu betrachten, die die Highlights der verschiedenen Themen zeigt. Jeder Bildwechsel erfolgt mit sanften Übergangsanimationen, um die Benutzererfahrung zu verbessern.
 - **Lightbox-Modus**: Ein Klick auf ein Bild öffnet eine detaillierte Ansicht (Lightbox), in der die Bilder in höherer Auflösung und mit Beschreibungen betrachtet werden können.
 
-## Storyboard für Landschafts- und Highlight-Videos
+## Videoseite
+
+### Storyboard für Landschafts- und Highlight-Videos
 
 Dieses Storyboard beschreibt Ideen für die Struktur und Planung meienr Videos, welche schöne Landschaften und Highligts meiner Bilder zeigen. Die einzelnen Szennen wurden schon mal als Idee, detailiert aufgeschrieben.
 
@@ -175,4 +177,4 @@ Dieses Storyboard beschreibt Ideen für die Struktur und Planung meienr Videos, 
 
 ---
 
-© 2024 - Deine Ferien-Galerie Spanien
+© 2024 - Ferien-Galerie Spanien Timo Weber
