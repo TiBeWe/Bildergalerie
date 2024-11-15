@@ -14,7 +14,6 @@ const VideoGallery = () => {
             .then(response => {
                 setVideos(response.data); // Videos aktualisieren
                 setLoading(false); // Ladeanzeige beenden
-                console.log(response.data); // Überprüfen der geladenen Videos
             })
             .catch(error => {
                 setError("Fehler beim Laden der Videos. Bitte versuche es später noch einmal.");
@@ -58,12 +57,11 @@ const VideoGallery = () => {
 
                 {videos.length > 0 && (
                     <div className="relative w-full max-w-3xl mx-auto">
-                        <h2 className="text-xl font-semibold mb-2 text-center">
-                        </h2>
                         <video
-                            key={videos[currentIndex]} // Schlüssel verwenden, um das Video neu zu laden
-                            controls
+                            key={videos[currentIndex]} // Video-Element wird jedes Mal neu geladen
                             className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
+                            controls
+                            autoPlay // Automatische Wiedergabe des Videos
                         >
                             <source src={videos[currentIndex]} type="video/mp4" />
                             Your browser does not support the video tag.
@@ -107,7 +105,6 @@ const VideoGallery = () => {
                                     <source src={video} type="video/mp4" />
                                 </video>
                             </div>
-                            <p className="text-center text-sm mt-1"></p>
                         </div>
                     ))}
                 </div>
