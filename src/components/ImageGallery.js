@@ -61,7 +61,7 @@ const ImageGallery = () => {
                         <img
                             src={images[currentIndex]}
                             alt={`Bild ${currentIndex + 1}`}
-                            className="w-full h-auto max-h-[80vh] object-contain rounded-lg img-zoom" // Zoom-Funktion
+                            className="w-full h-auto max-h-[74vh] object-contain rounded-lg img-zoom" // Zoom-Funktion
                         />
                     </div>
                 )}

@@ -6,7 +6,7 @@ import LandingPage from './components/LandingPage';
 import ImageGallery from './components/ImageGallery';
 import VideoGallery from './components/VideoGallery';
 import Animations from './components/Animations';
-import './index.css';
+import './styles/index.css';
 
 function App() {
   return (

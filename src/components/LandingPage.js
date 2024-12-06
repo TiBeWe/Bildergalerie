@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import './LandingPage.scss'; // Importiere deine SCSS-Datei für die Animation
+import '../styles/LandingPage.scss'; // Importiere deine SCSS-Datei für die Animation
 import { opacity, slideUp } from './anim'; // Externe Animationsdatei
 
 const words = ["Hello", "Bonjour", "Ciao", "Olà", "やあ", "Hallå", "Guten tag", "Hallo"];

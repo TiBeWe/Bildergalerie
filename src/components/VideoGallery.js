@@ -59,7 +59,7 @@ const VideoGallery = () => {
                     <div className="relative w-full max-w-3xl mx-auto">
                         <video
                             key={videos[currentIndex]} // Video-Element wird jedes Mal neu geladen
-                            className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
+                            className="w-full h-auto max-h-[74vh] object-contain rounded-lg"
                             controls
                             autoPlay // Automatische Wiedergabe des Videos
                         >
