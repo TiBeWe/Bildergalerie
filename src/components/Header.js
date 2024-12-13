@@ -28,10 +28,16 @@ const Header = () => {
                 Videos
               </Link>
             </li>
+            {/* GitHub link */}
             <li>
-              <Link to="/animations" className="hover:text-gray-400 transition duration-300">
-                Animationen
-              </Link>
+              <a
+                href="https://github.com/TiBeWe/Bildergalerie/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-400 transition duration-300"
+              >
+                GitHub
+              </a>
             </li>
           </ul>
         </nav>

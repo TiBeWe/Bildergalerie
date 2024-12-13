@@ -74,12 +74,15 @@ const LandingPage = () => {
                         >
                             Videos
                         </Link>
-                        <Link
-                            to="/animations"
+                        {/* GitHub-Link */}
+                        <a
+                            href="https://github.com/TiBeWe/Bildergalerie/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="relative bg-gradient-to-r from-[#AA151B] via-[#F9B13D] to-[#FFFCFC] bg-[length:200%_200%] animate-gradientMove text-black py-4 px-12 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 hover:text-[#FFFCFC]"
                         >
-                            Animationen
-                        </Link>
+                            GitHub
+                        </a>
                     </div>
                 </div>
             )}

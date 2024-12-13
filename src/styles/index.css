@@ -25,4 +25,68 @@ code {
   background-size: 200% 200%;
   animation: gradientMove 10s ease infinite;
 }
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-content div {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.footer-content h3 {
+  color: #f4b400;
+  margin-bottom: 10px;
+}
+
+.footer-content p, .footer-content ul {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  margin: 5px 0;
+}
+
+.footer-content ul li a, .footer-content p a {
+  color: #f4b400;
+  text-decoration: none;
+}
+
+.footer-content p a:hover, .footer-content ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #000000;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-content div {
+    margin: 20px 0;
+  }
+}
 

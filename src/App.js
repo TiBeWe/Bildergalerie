@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import LandingPage from './components/LandingPage';
 import ImageGallery from './components/ImageGallery';
 import VideoGallery from './components/VideoGallery';
-import Animations from './components/Animations';
 import './styles/index.css';
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/gallery" element={<ImageGallery />} />
         <Route path="/videos" element={<VideoGallery />} />
-        <Route path="/animations" element={<Animations />} />
       </Routes>
       <Footer />
     </Router>
