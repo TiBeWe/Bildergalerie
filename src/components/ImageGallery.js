@@ -56,12 +56,12 @@ const ImageGallery = () => {
                 </button>
 
                 {images.length > 0 && (
-                    <div className="relative w-full max-w-3xl mx-auto">
+                    <div className="relative w-full max-w-3xl mx-auto flex justify-center items-center">
                         {/* Bild mit flexibler Höhe, das Seitenverhältnis wird beibehalten */}
                         <img
                             src={images[currentIndex]}
                             alt={`Bild ${currentIndex + 1}`}
-                            className="w-full h-auto max-h-[74vh] object-contain rounded-lg img-zoom" // Zoom-Funktion
+                            className="h-auto max-h-[74vh] object-cover rounded-lg" // Zoom-Funktion
                         />
                     </div>
                 )}
@@ -93,11 +93,11 @@ const ImageGallery = () => {
                             className={`border-4 ${index === currentIndex ? "border-blue-500" : "border-transparent"} cursor-pointer`}
                             onClick={() => selectImage(index)}
                         >
-                            <div className="relative w-full h-32">
+                            <div className="relative w-full h-32 flex justify-center items-center">
                                 <img
                                     src={image}
                                     alt={`Thumbnail ${index + 1}`}
-                                    className="w-full h-full object-contain rounded-lg img-zoom" // Zoom für Thumbnails
+                                    className="h-full object-contain rounded-lg img-zoom" // Zoom für Thumbnails
                                 />
                             </div>
                         </div>
