@@ -56,10 +56,10 @@ const VideoGallery = () => {
                 </button>
 
                 {videos.length > 0 && (
-                    <div className="relative w-full max-w-3xl mx-auto">
+                    <div className="relative w-full max-w-3xl mx-auto flex justify-center items-center">
                         <video
                             key={videos[currentIndex]} // Video-Element wird jedes Mal neu geladen
-                            className="w-full h-auto max-h-[74vh] object-contain rounded-lg"
+                            className="h-auto max-h-[74vh] object-contain rounded-lg"
                             controls
                             autoPlay // Automatische Wiedergabe des Videos
                         >
@@ -97,9 +97,9 @@ const VideoGallery = () => {
                             className={`border-4 ${index === currentIndex ? "border-blue-500" : "border-transparent"} cursor-pointer`}
                             onClick={() => selectVideo(index)}
                         >
-                            <div className="relative w-full h-32">
+                            <div className="relative w-full h-32 flex justify-center items-center">
                                 <video
-                                    className="w-full h-full object-contain rounded-lg"
+                                    className="h-full object-contain rounded-lg"
                                     muted
                                 >
                                     <source src={video} type="video/mp4" />
